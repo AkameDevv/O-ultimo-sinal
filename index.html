@@ -60,8 +60,7 @@ form.fr,.box{display:grid;gap:12px;grid-column:1/-1;width:100%;max-width:440px;m
 import {initializeApp} from "https://www.gstatic.com/firebasejs/10.14.1/firebase-app.js";
 import {getAuth,signInAnonymously} from "https://www.gstatic.com/firebasejs/10.14.1/firebase-auth.js";
 import {getFirestore,doc,collection,setDoc,updateDoc,onSnapshot} from "https://www.gstatic.com/firebasejs/10.14.1/firebase-firestore.js";
-// COLE AQUI a configuração do seu app web do Firebase (veja o README)
-const firebaseConfig={apiKey:"COLE_AQUI",authDomain:"COLE_AQUI",projectId:"COLE_AQUI",appId:"COLE_AQUI"};
+const firebaseConfig={apiKey:"AIzaSyArvcDvdaznVnILH7oJva3MP3tbHB86Jp0",authDomain:"o-ultimo-sinal-3bf9b.firebaseapp.com",projectId:"o-ultimo-sinal-3bf9b",appId:"1:551099165822:web:c0c8f34bbbabcf23157c2f"};
 (()=>{
 const app=document.getElementById('app'),msgEl=document.getElementById('msg');
 function h(t,a,...k){const e=document.createElement(t);for(const[n,v]of Object.entries(a||{})){if(n==='class')e.className=v;else if(n.startsWith('on'))e.addEventListener(n.slice(2),v);else if(v!==false&&v!=null)e.setAttribute(n,v===true?'':v)}for(const c of k.flat())if(c!=null&&c!==false)e.append(c.nodeType?c:document.createTextNode(c));return e}
